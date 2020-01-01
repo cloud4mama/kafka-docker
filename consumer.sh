@@ -1,0 +1,1 @@
+docker exec -it kafka-docker_kafka_2 kafka-console-consumer.sh --topic topic001  --bootstrap-server kafka-docker_kafka_1:9092,kafka-docker_kafka_2:9092,kafka-docker_kafka_3:9092,kafka-docker_kafka_4:9092
